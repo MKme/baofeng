@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="GB2312"?>
+<InstallProject>
+<Version>YingInstall5.40</Version>
+<Task ID="2401" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetAllVar">
+<ProjectName>BF-480</ProjectName>
+<InstallPath>[Program Files]\BF-480</InstallPath>
+<PathLoadFromRegistry>0</PathLoadFromRegistry>
+<IsNoFoundStopInstall>0</IsNoFoundStopInstall>
+<RegRootKey>HKEY_LOCAL_MACHINE</RegRootKey>
+<RegSubKey>\Software\SoftwareCompany\MySoftware</RegSubKey>
+<RegVarName>InstallPath</RegVarName>
+<InstallStopDesc>找不到相关应用程序，升级过程终止！</InstallStopDesc>
+<CompanyDesc>BF-480</CompanyDesc>
+<ProductVersion>VR07.01</ProductVersion>
+<DiskSize>671088640</DiskSize>
+<AdPicture></AdPicture>
+<MusicPath></MusicPath>
+<TopFramePicture></TopFramePicture>
+<OutPutPath>安装包</OutPutPath>
+<ProvideForInstall></ProvideForInstall>
+<AppFileIcon></AppFileIcon>
+<BackgroundInstall>0</BackgroundInstall>
+<SpecCode></SpecCode>
+<Language>409</Language>
+<SoftwareSize>5178300</SoftwareSize>
+<FileQty>9</FileQty>
+</SubTask>
+</Task>
+<Task ID="2002" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowBitmap">
+<PosX>0</PosX>
+<PosY>0</PosY>
+<File></File>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<Description>|WelcomeWndDesc1||ProjectName||WelcomeWndDesc2|</Description>
+<Description>|WelcomeWndDesc3|</Description>
+<Description>|WelcomeWndDesc4|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2003" Type="ShowDialogBox" IsExec="0">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ReadSoftDocSubject|</Subject>
+<Description>|ReadSoftDocDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="ShowSoftDoc">
+<FileType>S</FileType>
+<File></File>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>0</IsShow>
+</SubTask>
+</Task>
+<Task ID="2004" Type="ShowDialogBox" IsExec="0">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ShowReadmeSubject|</Subject>
+<Description>|ShowReadmeDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="ShowReadme">
+<FileType>S</FileType>
+<File></File>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>0</IsShow>
+</SubTask>
+</Task>
+<Task ID="2005" Type="ShowDialogBox" IsExec="0">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|RegisterInfoSubject|</Subject>
+<Description>|RegisterInfoDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="EditBox">
+<Description>|RegisterInfoCompanyDesc|</Description>
+<Checked>1</Checked>
+<RegRootKey></RegRootKey>
+<RegSubKey></RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue></RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="10003" Type="EditBox">
+<Description>|RegisterInfoUserDesc|</Description>
+<Checked>1</Checked>
+<RegRootKey></RegRootKey>
+<RegSubKey></RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue></RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="10004" Type="EditBox">
+<Description>|RegisterInfoSNDesc|</Description>
+<Checked>1</Checked>
+<RegRootKey></RegRootKey>
+<RegSubKey></RegSubKey>
+<RegVarName></RegVarName>
+<RegVarValue></RegVarValue>
+<RegDataType>0</RegDataType>
+<RegOperType>0</RegOperType>
+<IsOnlyToKey>0</IsOnlyToKey>
+<IsToDelete>1</IsToDelete>
+</SubTask>
+<SubTask ID="10005" Type="Options">
+<IsShow>0</IsShow>
+</SubTask>
+</Task>
+<Task ID="2006" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ProgramFolderSubject|</Subject>
+<Description>|ProgramFolderDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<Description>|ProgramFolderDesc2|</Description>
+<Description>|ProgramFolderDesc3|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2007" Type="ShowDialogBox" IsExec="1">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ChangePathSubject|</Subject>
+<Description>|ChangePathDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<Description>|ChangePathDesc2|</Description>
+<Description>|ChangePathFreeSpaceDesc1|</Description>
+<Description>|ChangePathFreeSpaceDesc2|</Description>
+<Description>|ChangePathSoftSizeDesc1|</Description>
+<Description>|ChangePathSoftSizeDesc2|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>1</IsShow>
+</SubTask>
+</Task>
+<Task ID="2008" Type="ShowDialogBox" IsExec="1">
+</Task>
+<Task ID="2009" Type="ShowDialogBox" IsExec="0">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ShowFinishOneSubject|</Subject>
+<Description>|ShowFinishOneDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<Description>|ShowFinishOneDesc2|</Description>
+<Description>|ShowFinishOneDesc3|</Description>
+<Description>|ShowFinishOneDesc4|</Description>
+<Description>|ShowFinishOneDesc5|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>0</IsShow>
+</SubTask>
+</Task>
+<Task ID="2010" Type="ShowDialogBox" IsExec="0">
+<SubTask ID="10001" Type="ShowTopFrame">
+<Subject>|ShowFinishTwoSubject|</Subject>
+<Description>|ShowFinishTwoDesc|</Description>
+</SubTask>
+<SubTask ID="10002" Type="GetValue">
+<PosX>50</PosX>
+<PosY>100</PosY>
+<Description>|ShowFinishTwoDesc2|</Description>
+</SubTask>
+<SubTask ID="10003" Type="Options">
+<IsShow>0</IsShow>
+</SubTask>
+</Task>
+<Task ID="2402" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetAllVar">
+<PathDesc>[InstallDir]</PathDesc>
+<PathValue>..\OutPut</PathValue>
+<PathDesc>[Windows Directory]</PathDesc>
+<PathValue></PathValue>
+<PathDesc>[Windows Directory]\Fonts</PathDesc>
+<PathValue></PathValue>
+<PathDesc>[System Directory]</PathDesc>
+<PathValue></PathValue>
+<PathDesc>[Desktop Directory]</PathDesc>
+<PathValue></PathValue>
+<PathDesc>[Program Files]</PathDesc>
+<PathValue></PathValue>
+</SubTask>
+</Task>
+<Task ID="2403" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+<ComList>XXX-XXX-XXX</ComList>
+</SubTask>
+</Task>
+<Task ID="2404" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+<Description>BF-480</Description>
+</SubTask>
+<SubTask ID="10002" Type="CreateShortcutMenu">
+<Description>BF-480</Description>
+<File>BF480.exe</File>
+<Folder>[InstallDir]</Folder>
+<Parameter></Parameter>
+<IconFile></IconFile>
+<IsToFileLinkGroup>1</IsToFileLinkGroup>
+<IsToDesktop>1</IsToDesktop>
+<IsToStartup>0</IsToStartup>
+<IsToQuickLaunch>0</IsToQuickLaunch>
+<IsSpecExec>0</IsSpecExec>
+<SpecExecDesc></SpecExecDesc>
+</SubTask>
+</Task>
+<Task ID="2405" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2406" Type="DataSetting" IsExec="0">
+</Task>
+<Task ID="2407" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2414" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2413" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2408" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2409" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+</SubTask>
+</Task>
+<Task ID="2415" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+<File>[InstallDir]\pLanguage.exe</File>
+</SubTask>
+</Task>
+<Task ID="2410" Type="DataSetting" IsExec="0">
+<SubTask ID="10001" Type="GetValue">
+<CreateUnInstall1>1</CreateUnInstall1>
+<CreateUnInstall2>1</CreateUnInstall2>
+<UnInstallEx></UnInstallEx>
+</SubTask>
+</Task>
+<Task ID="2411" Type="DataSetting" IsExec="0">
+</Task>
+<Task ID="2412" Type="ExtractFiles" IsExec="0">
+<SubTask ID="10001" Type="FolderList">
+<Folder>[InstallDir]</Folder>
+</SubTask>
+<SubTask ID="10002" Type="FileList">
+<File>[TempFileDir]\~YingInstall-Language.ini,581632,1414,K,2001-11-11 19:11:12</File>
+<File>[TempFileDir]\~YingInstall-TopFramePicture.bmp,583046,230,K,2005-3-12 14:56:36</File>
+<File>[TempFileDir]\~YingInstall-WelcomeWndPicture.bmp,583276,91455,K,2003-7-28 20:34:0</File>
+<File>[Windows Directory]\Ying-UnInstall.exe,674731,171857,U,2006-9-29 21:0:22</File>
+<File>[InstallDir]\Chinese.Ini,846588,2338,A,2008-8-24 9:21:12</File>
+<File>[InstallDir]\Print.fr3,848926,1238,A,2007-5-5 11:58:54</File>
+<File>[InstallDir]\SysInfo.Ini,850164,113,A,2008-10-29 8:46:48</File>
+<File>[InstallDir]\English.Ini,850277,2620,A,2008-10-6 10:15:38</File>
+<File>[InstallDir]\BF480.exe,852897,1044983,A,2008-10-29 8:46:58</File>
+<File>[InstallDir]\BF_Chinese.chm,1897880,155866,A,2008-8-25 9:5:36</File>
+<File>[InstallDir]\BF_English.chm,2053746,140514,A,2008-8-25 9:4:22</File>
+<File>[InstallDir]\pLanguage.exe,2194260,388419,A,2008-8-25 9:48:10</File>
+</SubTask>
+</Task>
+</InstallProject>

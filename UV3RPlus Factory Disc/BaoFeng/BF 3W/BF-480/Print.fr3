@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" Version="3.20" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="3089" PreviewOptions.Zoom="1" PrintOptions.Printer="预设" ReportOptions.CreateDate="39206.6626109144" ReportOptions.Description.Text="" ReportOptions.LastChange="39207.4991106018" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C656674021C03546F70020E08446174617365747301010C3000000020446174615365743D226672784D61696E446174612220446174615365744E616D653D226672784D61696E446174612200010C2E00000020446174615365743D22667278446174617365742220446174615365744E616D653D2266727844617461736574220000095661726961626C65730100055374796C650100">
+  <TfrxReportPage Name="Page1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="宋体" Font.Style="0" PaperWidth="215.9" PaperHeight="279.4" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="2" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="26.45671" Left="0" Top="268.34663" Width="740.409927" ColumnWidth="0" ColumnGap="0" DataSet="frxDataset" DataSetName="frxDataset" RowCount="0">
+      <TfrxMemoView Name="Memo11" Left="18.89765" Top="0" Width="166.29932" Height="26.45671" VAlign="vaCenter" Text="[frxDataset.&#34;AField&#34;]"/>
+      <TfrxMemoView Name="Memo12" Left="355.27582" Top="0" Width="181.41744" Height="26.45671" VAlign="vaCenter" Text="[frxDataset.&#34;BField&#34;]"/>
+      <TfrxMemoView Name="Memo13" Left="185.19697" Top="0" Width="162.51979" Height="26.45671" VAlign="vaCenter" Text="  [frxDataset.&#34;AValue&#34;]"/>
+      <TfrxMemoView Name="Memo14" Left="540.47279" Top="0" Width="196.53556" Height="26.45671" VAlign="vaCenter" Text="[frxDataset.&#34;BValue&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="22.67718" Left="0" Top="355.27582" Width="740.409927">
+      <TfrxMemoView Name="Memo1" Left="302.3624" Top="3.77953000000002" Width="75.5906" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="[Page#]"/>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" Height="139.84261" Left="0" Top="18.89765" Width="740.409927">
+      <TfrxMemoView Name="Memo2" Left="0" Top="0" Width="737.00835" Height="41.57483" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="宋体" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxMainData.&#34;Title&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="506.45702" Top="41.57483" Width="113.3859" Height="18.89765" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="yyyy/mm/dd" DisplayFormat.Kind="fkDateTime" HAlign="haRight" VAlign="vaCenter" Text="[Date]"/>
+      <TfrxMemoView Name="Memo4" Left="623.62245" Top="41.57483" Width="94.48825" Height="18.89765" VAlign="vaCenter" Text="[Time]"/>
+      <TfrxMemoView Name="Memo5" Left="0" Top="68.03154" Width="249.44898" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="宋体" Font.Style="1" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[frxMainData.&#34;AField&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="0" Top="86.92919" Width="249.44898" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="宋体" Font.Style="1" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[frxMainData.&#34;BField&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="0" Top="105.82684" Width="249.44898" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="宋体" Font.Style="1" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[frxMainData.&#34;CField&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="253.22851" Top="68.03154" Width="427.08689" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="宋体" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="[frxMainData.&#34;AValue&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="253.22851" Top="86.92919" Width="427.08689" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="宋体" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="[frxMainData.&#34;BValue&#34;]"/>
+      <TfrxMemoView Name="Memo10" Left="253.22851" Top="105.82684" Width="427.08689" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="宋体" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="[frxMainData.&#34;CValue&#34;]"/>
+      <TfrxLineView Name="Line1" Left="0" Top="60.47248" Width="737.00835" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line2" Left="0" Top="136.06308" Width="740.78788" Height="0" Frame.Typ="4"/>
+    </TfrxPageHeader>
+    <TfrxGroupHeader Name="GroupHeader1" Height="26.45671" Left="0" Top="219.21274" Width="740.409927" Condition="frxDataset.&#34;TypeID&#34;" StartNewPage="True">
+      <TfrxMemoView Name="Memo15" Left="0" Top="3.77952999999999" Width="192.75603" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="宋体" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="[frxDataset.&#34;TypeName&#34;]"/>
+    </TfrxGroupHeader>
+  </TfrxReportPage>
+</TfrxReport>
