@@ -1,6 +1,12 @@
 # baofeng
 Erics Baofeng Radio Goodies 
 
+🐦 Twitter | 📺 YouTube | 🌍 mkme.org
+Support this project and become a patron on Eric's Patreon.
+Website, Forum and store are at http://mkme.org
+Chat with Me: Discord
+
+
 Buy the Baorfeng UV3R MK2: https://amzn.to/36dAseL
 
 Buy the UV3R+ https://amzn.to/36dAseL
