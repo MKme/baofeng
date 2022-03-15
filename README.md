@@ -1,8 +1,8 @@
 # baofeng
-Erics Baofeng Radio Goodies 
+Mods, firmware, upgrades, diy and any other files  
 
 <p align="center">
-<b>Adventures with the 3018 CNC Router </b><br>
+<b>Erics Baofeng Radio Goodies  </b><br>
 <br><br>
 <br>🐦 <a href="https://twitter.com/mkmeorg">Twitter</a>
 | 📺 <a href="https://www.youtube.com/mkmeorg">YouTube</a>
