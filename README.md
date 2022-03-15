@@ -1,10 +1,16 @@
 # baofeng
 Erics Baofeng Radio Goodies 
 
-🐦 Twitter | 📺 YouTube | 🌍 mkme.org
-Support this project and become a patron on Eric's Patreon.
-Website, Forum and store are at http://mkme.org
-Chat with Me: Discord
+<p align="center">
+<b>Adventures with the 3018 CNC Router </b><br>
+<br><br>
+<br>🐦 <a href="https://twitter.com/mkmeorg">Twitter</a>
+| 📺 <a href="https://www.youtube.com/mkmeorg">YouTube</a>
+| 🌍 <a href="http://www.mkme.org">mkme.org</a><br>
+<br>
+Support this project and become a patron on <a href="https://www.patreon.com/EricWilliam">Patreon</a>.<br>
+Chat: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>!
+</p>
 
 
 Buy the Baorfeng UV3R MK2: https://amzn.to/36dAseL
